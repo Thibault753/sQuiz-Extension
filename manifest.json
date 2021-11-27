@@ -1,0 +1,21 @@
+{
+  "name": "sQuiz Extension",
+  "description": "A very simple extension for sQuiz",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action" : {
+    "default_popup" : "popup.html",
+    "default_icon": {
+      "16"  : "/Images/logo-16x16.png",
+      "32"  : "/Images/logo-32x32.png",
+      "64"  : "/Images/logo-64x64.png",
+      "128" : "/Images/logo-128x128.png"
+    }
+  },
+  "icons" : {
+    "16"  : "/Images/logo-16x16.png",
+    "32"  : "/Images/logo-32x32.png",
+    "64"  : "/Images/logo-64x64.png",
+    "128" : "/Images/logo-128x128.png"
+  }
+}
