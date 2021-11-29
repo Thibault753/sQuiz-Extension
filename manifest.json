@@ -3,6 +3,10 @@
   "description": "A very simple extension for sQuiz",
   "version": "1.0",
   "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab","tabs"],
   "action" : {
     "default_popup" : "popup.html",
     "default_icon": {
